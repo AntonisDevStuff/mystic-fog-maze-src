@@ -1,0 +1,39 @@
+{
+  "button": {
+    "colours": {
+      "normal_bg": "#FFFFFF",
+      "hovered_bg": "#646464",
+      "normal_text": "#000000",
+      "hovered_text": "#000000",
+      "hovered_border": "#00FF00"
+    },
+    "font": {
+      "name": "upheavtt",
+      "size": "35",
+      "regular_path": "assets/upheavtt.ttf"
+    },
+    "misc": {
+      "tool_tip_delay": "1.5"
+    }
+  },
+    "drop_down_menu.#drop_down_options_list.button":{
+        "font": {
+          "name": "upheavtt",
+          "size": "28",
+          "regular_path": "assets/upheavtt.ttf"
+        }
+    },
+  "#big": {
+    "font": {
+      "name": "upheavtt",
+      "size": "80",
+      "regular_path": "assets/upheavtt.ttf"
+    }
+  },
+  "window": {
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "10,10,0,0"
+    }
+  }
+}

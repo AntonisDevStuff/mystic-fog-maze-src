@@ -1,0 +1,35 @@
+# Game: Mystic Fog Maze
+# Last Modify: 18/7/26
+
+@Info
+    level -> string:0-1
+    next -> string:1-1
+	name -> string:Tutorial
+	author -> string:AntonisDevStuff
+	print: string:Level:,var:level,string::,var:name
+	print: string:Creator:,var:author
+end
+
+@Settings
+	fog -> int:0
+	music -> str:jims_lab_crt
+	steps -> int:99
+	explosives -> int:1
+	camera -> boolean:0
+end
+
+@Map
+	center -> grid:[
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 4, 4, 4, 1, 4, 4, 4, 1, 1,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 1,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 1,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 1,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 1,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 4,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 4,
+        1, 4, 1, 4, 1, 4, 1, 4, 1, 4,
+        1, 3, 1, 4, 2, 4, 1, 4, 4, 4,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+    ]
+end
